@@ -1,0 +1,14 @@
+mkdir sandbox
+cd sandbox
+gedit commands.txt
+mkdir dir1
+mkdir dir2
+cd dir1
+gedit file1.txt
+cd -
+cd dir2
+gedit file2.txt
+
+mv commands.txt play.txt
+mv dir1 folder1
+mv dir2 folder2
